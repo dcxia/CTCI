@@ -1,0 +1,29 @@
+CTCI Study plan.
+
+
+
+3 Main Sections
+
+- Pre Interview concepts (preperation){
+    Skim and review these problems. Come back to them and review them as you need to.
+}
+- Interview Questions{
+    Aim to complete two days per chapter.
+}
+-
+
+
+
+May 12th
+Goal: 
+Skim through pre-interview concepts. Start Chapter 1.
+Completed: 
+
+
+June 5th
+Goal: Start working on Chapter 1 problems
+Completed: Completed logic of 3 or 4 questions. Learned how to search for a substring in O(n) time
+
+June 7th
+Goal: Start coding in Python
+Completed:
