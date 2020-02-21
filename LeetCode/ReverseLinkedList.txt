@@ -1,0 +1,27 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+# https://leetcode.com/problems/reverse-linked-list/submissions/
+# Recursive Solution for Reverse Linked List
+class Solution:
+    def rev(self, CNode, NNode):
+        #Base Case, finds head of reversed list
+        if NNode.next == None:
+            NNode.next = CNode
+            Head = NNode
+        else:
+            Head = self.rev(NNode,NNode.next)
+            NNode.next = CNode
+        return Head
+            
+    def reverseList(self, head: ListNode) -> ListNode:
+        if head == None:
+            return None
+        #Checks to make sure linked list isnt single node
+        if head.next != None:
+            return self.rev(None,head)
+        else: 
+            return head
